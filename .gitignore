@@ -1,0 +1,29 @@
+# секреты
+.env
+*.pem
+*.key
+id_rsa*
+
+# окружение и артефакты
+.venv/
+__pycache__/
+*.py[cod]
+
+# база
+*.db
+*.db-wal
+*.db-shm
+*.db-journal
+
+# служебное
+.claude/
+/_*.py
+_test*.py
+_debug*.py
+
+# приватный ключ туннеля
+.tunnel_key
+.tunnel_key.pub
+
+# загруженные картинки товаров (рантайм)
+webapp/uploads/
